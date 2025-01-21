@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 10</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form method="post">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" autocomplete="name">
+                </p>
+                <p>
+                    <label for="iapelido">Apelido</label>
+                    <input type="text" name="Apelido" id="iapelido">
+                </p>
+                <p>
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel">
+                </p>
+                <p>
+                    <label for="imorada">Morada</label>
+                    <input type="text" name="Morada" id="imorada">
+                </p>
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail">
+                </p>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Selecionar Curso</legend>
+            <p>
+                <label for="ifrontend">Curso Front-End</label>
+                <input type="checkbox" name="frontend" id="ifrontend">
+                <label for="ijava">Curso de Java</label> 
+                <input type="checkbox" name="java" id="ijava">
+                <label for="ifullstack">Curso Full Stack</label>
+                <input type="checkbox" name="fullstack" id="ifullstack">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width:601px){
+
+    #conteiner-flex{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .flex-titulo{
+        flex: 0 0 200px;
+    }
+
+    .flex-menu{
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: row wrap;
+    }
+
+    .ligacao{
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    article, footer{
+        margin: auto;
+    }
+
+    footer > nav{
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+}

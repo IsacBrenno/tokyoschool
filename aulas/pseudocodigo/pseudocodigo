@@ -1,0 +1,37 @@
+programa (){
+    abrir calculadora
+
+    Num1, Num2, Result: Inteiro
+
+        Digite um numero: (Num1)
+        Escolha uma operação: (+ - * /.... "Ope") 
+        Digite outro numero: (Num2)
+    	    Result == Num1 Ope Num2
+        
+        ("O resultado de ",(Num1 Ope Num2)," é igual a 
+        ", Result)  
+
+    fechar calculadora
+
+}
+fimprograma()
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
