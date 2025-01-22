@@ -65,5 +65,20 @@ div.barra-inicial{
 }
 
 .itens-barra{
-    justify-items: flex-end;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.menus{
+    margin: 6px 10px;
+    text-decoration: none;
+    color: #0D0D0D;
+    padding: 10px;
+    font-size: 1.1em;
+}
+.menus:hover{
+    background-color: #591902;
+    color: white;
+    border-radius: 7px;
 }
