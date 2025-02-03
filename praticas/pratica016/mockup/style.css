@@ -24,7 +24,7 @@ div#largura-total{
 header{
     display: flex;
     background-color: #0D0D0D;
-    padding: 10px;
+
 }
 
 div.botao{
@@ -56,7 +56,7 @@ main{
 div#lado-login{
     float: left;
     padding: 10px;
-    height: 635px;
+    height: 100vh;
     width: 650px;
     background-color: #8D8D8E;
 }
@@ -111,7 +111,7 @@ p{
     display: flex;
 }
 
-#botao-free{
+.botao-free{
     font-size: 1.3em;
     background-color: #591902;
     color: white;
@@ -130,7 +130,6 @@ p{
 
 
 #lado-img{
-    width: 900px;
-    background: black url(../imagem/cubo.jpg) no-repeat center center;
-    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
