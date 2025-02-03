@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*
+Cores: #BFC5D9 (VIDRO)
+       #591902 (CASTANHO CLARO)
+       #260101 (CASTANHO ESCURO)
+       #A6A6A6 (CINZA)
+       #0D0D0D (PRETO)
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A6A6A6;
+}
+
+div#largura-total{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    background-color: #0D0D0D;
+    padding: 10px;
+}
+
+div.botao{
+    flex: 0 0 25px;
+    background-color: #8D8D8E;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    border-radius: 50%;
+    justify-items: flex-start;
+}
+
+input{
+    justify-items: center;
+    width: 800px;
+    height: 40px;
+    margin-left: 250px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: calc(100vh-25px);
+    flex-flow: row nowrap;
+}
+
+div#lado-login{
+    float: left;
+    padding: 10px;
+    height: 635px;
+    width: 650px;
+    background-color: #8D8D8E;
+}
+
+div.barra-inicial{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.itens-barra{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.menus{
+    margin: 6px 10px;
+    text-decoration: none;
+    color: #0D0D0D;
+    padding: 10px;
+    font-size: 1.1em;
+}
+.menus:hover{
+    background-color: #591902;
+    color: white;
+    border-radius: 7px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    justify-self: flex-end;
+    font-size: 2.8em;
+    width: 400px;
+    padding-top: 80px;
+    padding-right: 80px;
+    font-weight: bolder;
+
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.415);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    justify-self: right;
+    width: 500px;
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.classe-botao{
+    display: flex;
+}
+
+#botao-free{
+    font-size: 1.3em;
+    background-color: #591902;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+#botao-free:hover{
+    background-color: #ba3200;
+
+    transition: 0.3s;
+}
+
+
+#lado-img{
+    width: 900px;
+    background: black url(../imagem/cubo.jpg) no-repeat center center;
+    background-size: cover;
+}
